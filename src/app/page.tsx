@@ -93,6 +93,7 @@ export default function Home() {
 
           <button
             onClick={askAgent}
+            onTouchEnd={(e) => { e.preventDefault(); askAgent(); }}
             disabled={loading}
             className="w-full rounded-xl bg-blue-500 px-5 py-3 font-semibold text-white transition hover:bg-blue-400 disabled:cursor-not-allowed disabled:opacity-60"
           >
