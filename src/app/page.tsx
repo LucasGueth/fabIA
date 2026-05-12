@@ -95,7 +95,7 @@ export default function Home() {
             onClick={askAgent}
             onTouchEnd={(e) => { e.preventDefault(); askAgent(); }}
             disabled={loading}
-            className="w-full rounded-xl bg-blue-500 px-5 py-3 font-semibold text-white transition hover:bg-blue-400 disabled:cursor-not-allowed disabled:opacity-60"
+            className="w-full rounded-xl bg-blue-500 px-5 py-4 font-semibold text-white transition hover:bg-blue-400 disabled:opacity-60 cursor-pointer touch-manipulation"
           >
             {loading ? "L’agent réfléchit..." : "Demander à l’agent"}
           </button>
