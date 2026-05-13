@@ -75,7 +75,7 @@ export default function Home() {
 
         <div className="w-full max-w-2xl rounded-2xl border border-slate-800 bg-slate-900 p-6 shadow-2xl">
           <label className="mb-2 block text-sm font-medium text-slate-300">
-            Ici, ca bz
+            Ecrit ton message ici :
           </label>
 
           <textarea
