@@ -65,7 +65,7 @@ export default function Home() {
           </p>
 
           <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-6xl">
-            Assistant intelligent du FabLab
+            Assistant intelligent du FabLab coucou
           </h1>
 
           <p className="mx-auto max-w-2xl text-lg text-slate-300">
